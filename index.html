@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="style.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!--BOOTSTRAP 5 CSS LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!--Navbar-->
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #4583a8;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4" style="color: white;"> <strong>Portfolio</strong></span>
+        </a>
+  
+        <ul class="nav nav-pills"  >
+          <li class="nav-item"><a href="#home" class="nav-link" aria-current="page" style="color: rgb(249, 248, 248);"> <strong>Home</strong> </a></li>
+          <li class="nav-item"><a href="#aboutus" class="nav-link" style="color: white;">About</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link" style="color: white;">Work</a></li>
+          <li class="nav-item"><a href="#contactus" class="nav-link" style="color: white;">Contact</a></li>
+        </ul>
+      </header>
+      <main class="site-main">
+
+
+        <!--  ======================= Start Banner Area =======================  -->
+         
+        <div id="home" class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hello!</h3>
+                        <h1 class="title-text text-uppercase">I am Tayaba</h1>
+                        <h4 class="title-text text-uppercase">Frontend Developer</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+<button class="c-button c-button--gooey"> Hire me
+    <div class="c-button__blobs">
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+  <button class="two"> Get CV
+    <div class="c-button__blobs">
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./banner.jpg" alt="banner-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Introduction-->
+        <h2 id="aboutus" class="heading-about">ABOUT</h2>
+       <div class="about-area">
+        <div class="container">
+            <!-- Content here -->
+             <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-img">
+                        <img src="./intro.jpg" alt="About us" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 about-title">
+                    <h2 class="uppercase pt-5">Let me introduce myself</h2>
+                    <div class="paragraph py-4 w-75">
+                        <p class="para">Hi! My name is Tayaba Jamil and I am currently doing my bachelors in Software Engineering from Lahore Garrison University and also doing Full Stack Web Development course from Corvit.I am passionate about learning new technologies and building efficient, scalable web applications.  Strong analytical skills and ability to work collaboratively in a team environment. Eager to apply academic knowledge to real-world projects and wants to continuously grow as a developer.</p>
+                    </div>
+                    
+<button class="button">
+    <span>Download CV</span>
+</button>        
+                </div>
+             </div>
+          </div>
+       </div>
+       <!--work-->
+       <h2 id="work" class="heading">WORK</h2>
+       <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: flag1 preserveAspectRatio="xMidYMid slice focusable="false"><img src="./flg1.PNG" alt="sweden"><title>Sweden Flag</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:Canada " preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./flg2.PNG" alt="canada"><title>Canada Flag</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+               
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:usa" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./flg3.PNG" alt=""><title>usa</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:chess" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./chess.PNG" alt=""><title>Chess Box</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Resume preserveAspectRatio="xMidYMid slice focusable="false"><img src="./resumee.PNG" alt=""><title>Resume</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:form" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./w6.PNG" alt=""><title>Formr</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Form</text></svg>
+                <div class="card-body">
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:list" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./w2.PNG" alt=""><title>Listr</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">List</text></svg>
+                <div class="card-body">
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:list" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./w1.PNG" alt=""><title>List2</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:formula" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./w3.PNG" alt=""><title>Formula</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:list" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./w4.PNG" alt=""><title></title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                  <div class="card-body">
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:list" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./w5.PNG" alt=""><title>List2</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                  <div class="card-body">
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="15px" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder:list" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="./frm.PNG" alt=""><title></title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                  <div class="card-body">
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--Contact-->
+      <h2 id="contactus" class="heading-contact">CONTACT US</h2>
+      <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis" style="background-color: #dde0c1;">
+        <div class="contact" class="col-lg-6 px-0">
+          <p class="lead my-3">Feel free to call and email us at</p>
+          <p><img src="./phone-call (2).png" alt="call" width="15px">+92-301-9453276</p>
+          <p><img src="./mail.png" alt="mail" width="15px">tayaba.256@gmail.com</p>
+        </div>
+      </div>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#aboutus" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link px-2 text-body-secondary">Work</a></li>
+            <li class="nav-item"><a href="#contactus" class="nav-link px-2 text-body-secondary">Contact</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        </footer>
+      </div>
+    
+      
+
+
+
+     <!--BOOTSTRAP 5 JS LINK-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
